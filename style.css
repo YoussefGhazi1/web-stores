@@ -85,3 +85,11 @@ body{background-color: #FFDADA;}
     text-decoration: none;
     color: black;
 }
+#makeup img{ height: 400px;
+    width: 400px;
+}
+body{background-color: #FFDADA;}
+#makeup a{
+    text-decoration: none;
+    color: black;
+}
