@@ -1,5 +1,5 @@
 #header{
-     background-color: #f3e4e6;
+     background-color: #FFDADA;
 }
 #header img{
     height: 60px;
@@ -84,13 +84,16 @@ body{background-color: #FF788D;}
     margin-top: 20px;
 }
 #home h1:hover{
-    color: #d16b7a;
+    color: #e1e1e1;
     transition: 0.5s;
 }
 .product-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: space-between;
+      gap: 20px;
+      margin-right: 80px;
+      
 }
 #FavelinMiracle img{ height: 400px;
     width: 400px;
@@ -146,6 +149,23 @@ height: 400px;
     text-decoration: none;
 color: black;
 }
+#EyeContour img {
+     width: 400px;
+height: 400px;
+}
+#EyeContour a{
+    text-decoration: none;
+color: black;
+}
+#PeelingGel img{
+     width: 400px;
+height: 400px;
+}
+#PeelingGel a{
+    text-decoration: none;
+color: black;
+}
+
 .category section{
     width:100%;
     max-width: 1200px;
@@ -241,4 +261,54 @@ color: black;
     width: 100%;
     height: auto;
     border-radius: 16px;
+}
+.mostselling {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+#FondantExtentioniste img{
+height: 400px;
+width: 400px;
+}
+#FondantExtentioniste a{
+text-decoration: none;
+color: black;
+}
+#MolecularMask img{
+    height: 400px;
+width: 400px;
+}
+#MolecularMask a{
+text-decoration: none;
+color: black;
+}
+#WhiteningDeodorant a{
+text-decoration: none;
+color: black;
+}
+#WhiteningDeodorant img{
+height: 400px;
+width: 400px;
+}
+#navs a{
+    text-decoration: none;
+    color: black;
+}
+#end{
+    text-align: center;
+     border: 5px solid #e14aac;
+    padding: 2px;
+    margin: 2px;
+    color: white;
+}
+#end nav{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+gap: 20px
+;
+}
+#end a{
+    color: white;
 }
