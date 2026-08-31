@@ -1,109 +1,104 @@
-.login-page {
+.create-page {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #f7f7f7;
+    padding: 40px 0;
 }
 
-.login-box {
-    width: 400px;
+.create-box {
+    width: 420px;
     background: white;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
 }
 
-.login-logo {
+.create-logo {
     display: block;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     object-fit: contain;
-    margin: 0 auto 15px;
+    margin: 0 auto 10px;
 }
 
-.login-box h1 {
+.create-box h1 {
     text-align: center;
     margin-bottom: 8px;
     font-size: 30px;
 }
 
-.login-text {
+.create-text {
     text-align: center;
     color: #777;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
-.login-box form {
+.create-box form {
     display: flex;
     flex-direction: column;
 }
 
-.login-box label {
+.create-box form > label:not(.terms) {
     font-weight: bold;
     margin-bottom: 8px;
 }
 
-.login-box input[type="email"],
-.login-box input[type="password"] {
+.create-box input[type="text"],
+.create-box input[type="email"],
+.create-box input[type="tel"],
+.create-box input[type="password"] {
     padding: 13px;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 15px;
     outline: none;
 }
 
-.login-box input[type="email"]:focus,
-.login-box input[type="password"]:focus {
+.create-box input[type="text"]:focus,
+.create-box input[type="email"]:focus,
+.create-box input[type="tel"]:focus,
+.create-box input[type="password"]:focus {
     border-color: #555;
 }
 
-.login-options {
+.terms {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 22px;
+    gap: 8px;
     font-size: 14px;
+    color: #555;
+    margin: 5px 0 20px;
 }
 
-.remember {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.remember input {
+.terms input {
     width: auto;
-    margin: 0;
 }
 
-.login-options a {
-    text-decoration: none;
-}
-
-.login-button {
+.create-button {
     padding: 14px;
     border: none;
     border-radius: 8px;
+    background: #222;
+    color: white;
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
-    background: #222;
-    color: white;
 }
 
-.login-button:hover {
+.create-button:hover {
     opacity: 0.85;
 }
 
-.create-account {
+.login-link {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 22px;
     color: #666;
 }
 
-.create-account a {
+.login-link a {
     text-decoration: none;
     font-weight: bold;
 }

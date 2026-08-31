@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Purchase Review - Vono</title>
+    <link rel="stylesheet" href="purchase review.css">
+</head>
+<body>
+    <div class="purchase-page">
+        <div class="purchase-box">
+            <h1>Purchase Review</h1>
+            <p class="purchase-text">
+                Review your order before completing your purchase.
+            </p>
+            <div class="product-review">
+                <img src="img/lip_gloss-.png" alt="Product">
+                <div class="product-info">
+                    <h2>Lip Gloss</h2>
+                    <p>
+                        A smooth, high-shine lip gloss that gives your lips
+                        a beautiful glossy finish.
+                    </p>
+                    <p class="price">
+                        280.99 EGP
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="order-details">
+
+                <h2>Order Details</h2>
+
+                <div class="detail">
+                    <span>Product Price</span>
+                    <span>280.99 EGP</span>
+                </div>
+
+                <div class="detail">
+                    <span>Delivery</span>
+                    <span>Free</span>
+                </div>
+
+                <div class="detail total">
+                    <span>Total</span>
+                    <span>280.99 EGP</span>
+                </div>
+
+            </div>
+            <form action="thankspage.html">
+                <label for="address">Delivery Address</label>
+                <input type="text" id="address" placeholder="Enter your delivery address" required >
+                <label for="payment">Payment Method</label>
+                <select id="payment" required>
+                    <option value="">Select payment method</option>
+                    <option value="cash">
+                        Cash on Delivery
+                    </option>
+                    <option value="card">
+                        Credit / Debit Card
+                    </option>
+                </select>
+                <button type="submit" class="purchase-button">
+                    Confirm Purchase
+                </button>
+            </form>
+            <a href="index.html" class="back-home">
+                Back to Home
+            </a>
+        </div>
+    </div>
+</body>
+</html>

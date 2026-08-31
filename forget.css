@@ -1,4 +1,9 @@
-.login-page {
+body {
+    margin: 0;
+}
+
+.forgot-page {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -6,15 +11,15 @@
     background: #f7f7f7;
 }
 
-.login-box {
-    width: 400px;
+.forgot-box {
+  width: 420px;
     background: white;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
 }
 
-.login-logo {
+.forgot-logo {
     display: block;
     width: 90px;
     height: 90px;
@@ -22,88 +27,68 @@
     margin: 0 auto 15px;
 }
 
-.login-box h1 {
+.forgot-box h1 {
     text-align: center;
-    margin-bottom: 8px;
     font-size: 30px;
+    margin: 0 0 12px;
 }
 
-.login-text {
+.forgot-text {
     text-align: center;
     color: #777;
-    margin-bottom: 30px;
+    line-height: 1.6;
+    margin: 0 0 30px;
 }
 
-.login-box form {
+.forgot-box form {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.login-box label {
+.forgot-box form label {
     font-weight: bold;
     margin-bottom: 8px;
 }
 
-.login-box input[type="email"],
-.login-box input[type="password"] {
+.forgot-box form input {
+    width: 100%;
+    box-sizing: border-box;
     padding: 13px;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 15px;
     outline: none;
 }
 
-.login-box input[type="email"]:focus,
-.login-box input[type="password"]:focus {
+.forgot-box form input:focus {
     border-color: #555;
 }
 
-.login-options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 22px;
-    font-size: 14px;
-}
-
-.remember {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.remember input {
-    width: auto;
-    margin: 0;
-}
-
-.login-options a {
-    text-decoration: none;
-}
-
-.login-button {
+.reset-button {
+    width: 100%;
     padding: 14px;
     border: none;
     border-radius: 8px;
+    background: #222;
+    color: white;
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
-    background: #222;
-    color: white;
 }
 
-.login-button:hover {
+.reset-button:hover {
     opacity: 0.85;
 }
 
-.create-account {
+.back-login {
     text-align: center;
     margin-top: 25px;
     color: #666;
 }
 
-.create-account a {
+.back-login a {
     text-decoration: none;
     font-weight: bold;
 }
