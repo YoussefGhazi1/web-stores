@@ -33,8 +33,8 @@
 }
 #end nav{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-gap: 20px;
-
+gap: 20px
+;
 }
 #end a{
     color: rgb(0, 0, 0);
