@@ -7,6 +7,7 @@
     border: 1px solid #ccc;
     margin: 40px auto;
     font-family: Arial, sans-serif;
+    background-color: #f3e4e6;
 }
 .product-img{
     width:100%;
@@ -40,7 +41,7 @@ gap: 20px
     color: rgb(0, 0, 0);
 }
 #header{
-     background-color: #FFDADA;
+     background-color:  #F8B2B2;
 }
 #header img{
     height: 60px;
@@ -51,8 +52,8 @@ gap: 20px
 #header a {
     text-decoration: none;
       color: rgb(0, 0, 0);
-      background-color: #165823;
-      border: 2px solid #d16b7a;
+      background-color: #f8f8f8;
+      border: 2px solid #ebe5e6;
       padding: 2px;
       margin: 2px;
 }

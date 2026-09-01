@@ -7,9 +7,10 @@
     border: 1px solid #ccc;
     margin: 40px auto;
     font-family: Arial, sans-serif;
+    background-color: #f3e4e6;
 }
-.product-img{
-    width:100%;
+.product-img img{
+    width: 350px;
     flex: 1;
     max-width: 450px;
     border-radius: 12px;
