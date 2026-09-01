@@ -48,7 +48,7 @@ body{
         display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #eceff0;
+    background-color:  #F8B2B2;
     border-radius: 25px;
     margin: 10px 10px;
     flex-direction: column;
@@ -103,11 +103,11 @@ display: flex;
 justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    background-color: #eceff0;
+    background-color:  #F8B2B2;
     border-radius: 25px;
     margin: 10px 15;
 }
-navs{
+#navs{
     display: flex;
     gap: 30px;
     align-items: center;

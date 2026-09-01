@@ -25,49 +25,82 @@
 .product-name{
     flex:1;
  }   
- #end{
-    text-align: center;
-     border: 5px solid #e14aac;
-    padding: 2px;
-    margin: 2px;
-    color: rgb(0, 0, 0);
+ #navs a{ 
+    text-decoration: none;
+    color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+    padding: 5px 10px;
+    transition: 0.5s;
 }
-#end nav{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-gap: 20px
-;
+#navs a:hover{
+    color:#165823;
+    border-radius: 25px;
+    transition: 0.5s;
 }
-#end a{
-    color: rgb(0, 0, 0);
-}
+
 #header{
-     background-color: #FFDADA;
+display: flex;
+justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #F8B2B2;
+    border-radius: 25px;
+    margin: 10px 15;
 }
-#header img{
-    height: 60px;
-    width: 60px;
+#navss{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#logo img{
     border-radius: 50%;
+    height: 50px;
     object-fit: cover;
 }
-#header a {
-    text-decoration: none;
-      color: rgb(2, 2, 3);
-      background-color: #165823;
-      border: 2px solid #d16b7a;
-      padding: 2px;
-      margin: 2px;
+#footer{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8B2B2;
+    border-radius: 25px;
+    margin: 10px 10px;
+    flex-direction: column;
 }
-#header nav{
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  display: flex;
-  gap: 10px;
-
+#copyright{
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+    color: #888;
+}
+#navss{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+    gap: 10px;
+}
+#navss a{ 
+    text-decoration: none;
+    color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+    padding: 5px 5px;
+    transition: 0.5s;
+}
+#navss a:hover{
+    color:#165823;
+    border-radius: 25px;
+    transition: 0.5s;
 }
 .login{
     background-color: #165823;
     border: 2px solid #e1d1d3;
     padding: 2px;
     margin: 2px;
-}
+} 
