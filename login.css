@@ -96,6 +96,20 @@
 .login-button:hover {
     opacity: 0.85;
 }
+.at{
+    padding: 8px;
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #222;
+    color: white;
+    
+}
+
 
 .create-account {
     text-align: center;
