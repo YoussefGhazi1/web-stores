@@ -28,7 +28,7 @@
 }
 
 
-/* Product */
+
 
 .product-review {
     display: flex;
@@ -61,7 +61,7 @@
 }
 
 
-/* Order Details */
+
 
 .order-details {
     margin-bottom: 30px;
@@ -87,7 +87,7 @@
 }
 
 
-/* Form */
+
 
 .purchase-box form {
     display: flex;
@@ -115,13 +115,13 @@
 }
 
 
-/* Confirm Button */
+
 
 .purchase-button {
     padding: 15px;
     border: none;
     border-radius: 8px;
-    background: #222;
+    background: #1d7c3d;
     color: white;
     font-size: 17px;
     font-weight: bold;
@@ -133,7 +133,7 @@
 }
 
 
-/* Back */
+
 
 .back-home {
     display: block;

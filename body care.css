@@ -1,7 +1,7 @@
 body{
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
-    background-color:  #ffe0e4;
+    background-color: #fef6f7;
     color: #333;
 } 
 .product-container{
@@ -12,7 +12,7 @@ body{
 }
 .product-card{
     width: 600px;
-    background-color:  #ffe0e4;
+    background-color:  #fef6f7;
     border-radius: 10px;
     text-align: center;
     transition:0.3s ease;
@@ -33,14 +33,23 @@ body{
     color: #666;
     margin-bottom: 10px;
 }
-.product-card button{
-    background-color: #075315;
-    color: #fff;
+.details-btn {
+    margin-top: 20px;
+    padding: 13px 35px;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 30px;
+    background: #c0697a;
+    color: rgb(231, 231, 231);
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
-    transition:0.3s ease;
+    transition: 0.3s ease;
+}
+
+.details-btn:hover {
+    background: #a24457;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(169, 86, 104, 0.3);
 }
 #footer{
         display: flex;
