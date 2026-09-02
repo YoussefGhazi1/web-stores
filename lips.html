@@ -18,15 +18,17 @@
     <a href="login.html" class="login">👤 login</a>
 </nav>
 </header>
-    <div class="product-container">
-    <div class="product-img">
+    <div class="product-card">
+    <div class="product-image">
         <img src="img/lips.png" alt="KIKO Milano 3D Hydra Lip Gloss">
     </div>
-    <div class="product-name">
-        <h2>Charlotte Tilbury Pillow Talk Lip Collection</h2>
+    <div class="product-info">
+        <h1>Charlotte Tilbury Pillow Talk Lip Collection</h1>
         <p>800 EGP</p>
-        <p>★★★★★</p>
-        <p>4.9/5</p>   
+        <div class="rating">
+            ★★★★★
+            <span>4.9/5</span>
+        </div>
         <p>An iconic nude-pink lipstick with a moisturizing, modern-matte finish.,<br>
              The creamy formula helps smooth and condition the lips while creating a soft, fuller-looking pout.<br>
               Its signature angled square tip allows for precise and effortless application. </p>
@@ -40,8 +42,10 @@
         </ul>
     <div class="input">
 <form action="create.html">
-    <input type="number" placeholder="Quantity"min="1" max="20" required>
-        <button type="submit">Buy Now</button>
+    
+        <button class="buy-btn">Buy Now</button>
+        <input type="number" placeholder="Quantity"min="1" max="20" required class="quantity-input">
+
       </form>
     </div> 
     </div> 

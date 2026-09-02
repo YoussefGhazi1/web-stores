@@ -18,15 +18,17 @@
     <a href="login.html" class="login">👤 login</a>
 </nav>
 </header>
-    <div class="product-container">
-    <div class="product-img">
+    <div class="product-card">
+    <div class="product-image">
         <img src="img/gift_sits_skin.png">
     </div>
-    <div class="product-name">
-        <h2> Sakura Skin Care Set</h2>
+    <div class="product-info">
+        <h1>Sakura Skin Care Set</h1>
         <p>4800EGP</p>
-        <p>★★★★★</p>
-        <p>4.8/5</p>   
+        <div class="rating">
+            ★★★★★
+            <span>4.8/5</span>
+       </div> 
         <p>A beautifully curated Sakura 5-Piece Skin Care Set designed to provide a<br>
              gentle, refreshing, and radiant skincare experience.<br>
               Inspired by the delicate beauty of cherry blossoms,<br>
@@ -41,8 +43,9 @@
         </ul>
     <div class="input">
       <form action="create.html">
-        <input type="number" placeholder="Quantity"min="1" max="20" required>
-        <button type="submit">Buy Now</button>
+        
+        <button class="buy-btn">Buy Now</button>
+        <input type="number" placeholder="Quantity"min="1" max="20" required class="quantity-input">
       </form>
     </div> 
     

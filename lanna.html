@@ -19,16 +19,18 @@
 </nav>
 </header>
     </header>
-    <div class="product-container">
-      <div class="product-img">
+    <div class="product-card">
+      <div class="product-image">
        <img src="img/lanna.png">
     </div>
-    <div class="product-name">
-        <h2> LANNA </h2>
+    <div class="product-info">
+        <h1> LANNA </h1>
         <h3>Floral Body Care Collection</h3>
          <h3>2000 EGP</h3>
-         <p>★★★★★</p>
-         <p>5/5</p>    
+         <div class="rating">
+            ★★★★★
+            <span>5/5</span>
+         </div>
          <p>The LANNA Collection combines elegant floral packaging with a complete body-care routine.<br>
              From body wash and lotion to exfoliation, body oil, and soap,<br>
               the collection is designed to make everyday skincare feel luxurious and relaxing.</p> 
@@ -53,8 +55,9 @@
      </ul>
  <div class="input">
     <form action="create.html">
-        <input type="number" placeholder="Quantity"min="1" max="20" required>
-        <button type="submit">Buy Now</button></a>
+        
+        <button class="buy-btn">Buy Now</button>
+        <input type="number" placeholder="Quantity"min="1" max="20" required class="quantity-input">
     </form>
  </div>
  </div>

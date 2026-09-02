@@ -1,7 +1,7 @@
 body{
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
-    background-color:  #f2c8ce;
+    background-color:  #ffe0e4;
     color: #333;
 } 
 .product-container{
@@ -12,7 +12,7 @@ body{
 }
 .product-card{
     width: 600px;
-    background-color:  #f2c8ce;
+    background-color:  #ffe0e4;
     border-radius: 10px;
     text-align: center;
     transition:0.3s ease;

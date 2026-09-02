@@ -18,16 +18,18 @@
     <a href="login.html" class="login">👤 login</a>
 </nav>
 </header>
-    <div class="product-container">
-      <div class="product-img">
+    <div class="product-card">
+      <div class="product-image">
        <img src="img/sunday.png">
     </div>
-    <div class="product-name">
-        <h2> Sunday Rain </h2>
+    <div class="product-info">
+        <h1> Sunday Rain </h1>
         <h3> Acai Berry Collection</h3>
          <h3>1500 EGP</h3>
-         <p>★★★★★</p>
-         <p>5/5</p>    
+         <div class="rating">
+         ★★★★★
+         <span>5/5</span>   
+         </div>
          <p>Sweet Acai Berry body care featuring a body scrub, bath crystals,<br>
              and hair & body mist for a refreshing fruity self-care experience.</p> 
        
@@ -50,8 +52,10 @@
      
  <div class="input">
     <form action="create.html">
-        <input type="number" placeholder="Quantity"min="1" max="20" required>
-        <button type="submit">Buy Now</button></a>
+         <button class="buy-btn">Buy Now</button>
+        <input type="number" placeholder="Quantity"min="1" max="20" required class="quantity-input">
+       
+
     </form>
  </div>
  </div>

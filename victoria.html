@@ -18,16 +18,18 @@
     <a href="login.html" class="login">👤 login</a>
 </nav>
 </header>
-    <div class="product-container">
-      <div class="product-img">
+    <div class="product-card">
+      <div class="product-image">
        <img src="img/victoria.png">
     </div>
-    <div class="product-name">
-        <h2>  Victoria’s Secret </h2>
+    <div class="product-info">
+        <h1>  Victoria’s Secret </h1>
         <h3>Exfoliating Body Scrubs</h3>
          <h3>1800 EGP</h3>
-         <p>★★★★★</p>
-         <p>5/5</p>    
+         <div class="rating">
+         ★★★★★
+         <span>5/5</span>   
+         </div>
          <p>Pamper your skin with Victoria’s Secret Exfoliating Body Scrubs,<br>
              designed to gently remove dead skin cells and leave your skin feeling smooth, soft, and refreshed.<br>
               Each scent offers a unique experience, from fresh and floral to warm and relaxing.</p> 
@@ -45,8 +47,9 @@
      </ul>
  <div class="input">
     <form action="create.html">
-        <input type="number" placeholder="Quantity"min="1" max="20" required>
-        <button type="submit">Buy Now</button></a>
+        <button class="buy-btn">Buy Now</button>
+        <input type="number" placeholder="Quantity"min="1" max="20" required class="quantity-input">
+        
     </form>
  </div>
  </div>

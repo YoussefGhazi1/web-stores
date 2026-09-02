@@ -18,16 +18,18 @@
     <a href="login.html" class="login">👤 login</a>
 </nav>
 </header>
-    <div class="product-container">
-      <div class="product-img">
+    <div class="product-card">
+      <div class="product-image">
        <img src="img/moon paris.png">
     </div>
-    <div class="product-name">
-        <h2> Mon Paris Eau de Parfum </h2>
+    <div class="product-info">
+        <h1> Mon Paris Eau de Parfum </h1>
         <h3> Yves Saint Laurent</h3>
          <h3>3500 EGP</h3>
-         <p>★★★★★</p>
-         <p>5/5</p>    
+         <div class="rating">
+         ★★★★★
+         <span>5/5</span>
+          </div>  
          <p>A modern expression of love and desire,<br>
              Mon Paris opens with a delicious burst of red berries<br>
               before revealing the sensual floral character of white datura. <br>
@@ -42,8 +44,9 @@
      </ul>
  <div class="input">
     <form action="create.html">
-        <input type="number" placeholder="Quantity"min="1" max="20" required>
-        <button type="submit">Buy Now</button></a>
+        
+        <button class="buy-btn">Buy Now</button>
+        <input type="number" placeholder="Quantity"min="1" max="20" required class="quantity-input">
     </form>
  </div>
  </div>

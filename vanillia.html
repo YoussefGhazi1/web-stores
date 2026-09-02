@@ -18,16 +18,19 @@
     <a href="login.html" class="login">👤 login</a>
 </nav>
 </header>
-    <div class="product-container">
-      <div class="product-img">
+    <div class="product-card">
+      <div class="product-image">
        <img src="img/vanillia.png">
     </div>
-    <div class="product-name">
-        <h2> Pink Vanilla </h2>
+    <div class="product-info">
+        <h1> Pink Vanilla </h1>
         <h3>Pink Vanilla Body Care Collection</h3>
          <h3>2500EGP</h3>
-         <p>★★★★★</p>
-         <p>5/5</p>    
+         <div class="rating">
+         ★★★★★
+         <span>5/5</span>   
+         </div>
+
          <p>a sweet and feminine fragrance with the PINK Vanilla Collection.<br>
              This collection combines soft vanilla notes with a playful floral touch,<br>
               helping your skin feel clean, moisturized, soft, and beautifully scented.</p> 
@@ -50,8 +53,9 @@
      </ul>
  <div class="input">
     <form action="create.html">
-        <input type="number" placeholder="Quantity"min="1" max="20" required>
-        <button type="submit">Buy Now</button></a>
+        <button class="buy-btn">Buy Now</button>
+        <input type="number" placeholder="Quantity"min="1" max="20" required class="quantity-input">
+      
     </form>
  </div>
  </div>
