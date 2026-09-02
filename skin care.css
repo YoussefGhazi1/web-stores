@@ -1,7 +1,5 @@
 body{
     box-sizing:border-box;
-    margin:0;
-    padding:0;
     font-family: 'Poppins', sans-serif;
     background-color: #f2c8ce;
     color: #333;
@@ -55,7 +53,7 @@ body{
     transition: 0.5s;
 }
 #navs a:hover{
-    color:#165823;
+    color:#a95668;
     border-radius: 25px;
     transition: 0.5s;
 }
@@ -65,7 +63,7 @@ display: flex;
 justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    background-color:  #F8B2B2;
+    background-color: #f3d6d9;
     border-radius: 25px;
     margin: 10px 15;
 }
@@ -83,7 +81,7 @@ navs{
         display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:  #F8B2B2;
+    background-color: #f3d6d9;
     border-radius: 25px;
     margin: 10px 10px;
     flex-direction: column;
@@ -113,7 +111,7 @@ navs{
     transition: 0.5s;
 }
 #navss a:hover{
-    color:#165823;
+    color:#a95668;
     border-radius: 25px;
     transition: 0.5s;
 }
