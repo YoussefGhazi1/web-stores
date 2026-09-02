@@ -59,40 +59,11 @@
 .contact-form button:hover {
     opacity: 0.8;
 }
-#navs a{ 
-    text-decoration: none;
-    color: black;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 17px;
-    padding: 5px 10px;
-    transition: 0.5s;
-}
-#navs a:hover{
-    color:#165823;
-    border-radius: 25px;
-    transition: 0.5s;
-}
-#navs{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px;
-    background-color: #eceff0;
-    border-radius: 25px;
-    margin: 10px 15;
-}
-#logo img{
-    border-radius: 50%;
-    height: 50px;
-    object-fit: cover;
-}
 #footer{
         display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:  #F8B2B2;
+    background-color: #f3d6d9;
     border-radius: 25px;
     margin: 10px 10px;
     flex-direction: column;
@@ -122,7 +93,42 @@
     transition: 0.5s;
 }
 #navss a:hover{
-    color:#165823;
+    color:#a95668;
     border-radius: 25px;
     transition: 0.5s;
+}
+#navs a{ 
+    text-decoration: none;
+    color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+#navs a:hover{
+    color:#a95668;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#header{
+display: flex;
+justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f3d6d9;
+    border-radius: 25px;
+    margin: 10px 15;
+}
+#navs{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#logo img{
+    border-radius: 50%;
+    height: 50px;
+    object-fit: cover;
 }

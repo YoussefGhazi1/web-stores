@@ -9,13 +9,29 @@ body{
     flex-wrap: wrap;
     gap: 20px;
     margin: 50px;
+    margin-left: 200px;
 }
 .product-card{
     width: 600px;
-    background-color: #fef6f7;
+    background-color: #f3d6d9;
     border-radius: 10px;
     text-align: center;
     transition:0.3s ease;
+}
+.hero-banner{
+    text-align: center;
+}
+.hero-banner h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero-banner h1:hover{
+    color: #a95668;
+    transition: 0.5s;
+}
+.hero-banner p{
+    font-size: 18px;
+    color: #666;
 }
 .product-card img{
     width: 100%;
@@ -35,13 +51,14 @@ body{
 }
 .details-btn {
     margin-top: 20px;
+margin-bottom: 20px;
 
     padding: 13px 35px;
 
     border: none;
     border-radius: 30px;
 
-    background: #c0697a;
+    background: #000000;
     color: rgb(231, 231, 231);
 
     font-size: 16px;
